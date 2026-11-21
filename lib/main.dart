@@ -1,3 +1,4 @@
+import 'package:custom_button/screen/RegScreen.dart';
 import 'package:custom_button/screen/screen.dart';
 import 'package:flutter/material.dart';
 void main(){
@@ -9,7 +10,9 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-    home: LoginScreen() ,
+    home: RegsScreen() ,
     );
   }
 }
+
+
