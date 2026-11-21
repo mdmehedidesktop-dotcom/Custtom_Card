@@ -13,7 +13,7 @@ class _RegsScreenState extends State<RegsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(leading: Icon(Icons.arrow_back),),
+      appBar: AppBar(backgroundColor: Colors.lightBlueAccent,leading: Icon(Icons.arrow_back),),
       body: Padding(padding: EdgeInsetsGeometry.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
